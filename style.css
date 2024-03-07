@@ -98,7 +98,11 @@
     height: 50px;
   }
   .week ul li button {
-    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 0.4em;
     color: #180d0c;
   }
 }
