@@ -2,8 +2,8 @@ alert("My Portfolio Calendar")
 document.getElementById("playButton").addEventListener("click", function() {
     var styledText = '<p style="color: white; background-color: #180d0c; font-size: 8px;">Happy Birthday</p>';
     playButton.innerHTML =styledText;
-    var video = document.getElementById("myVideo");
-    video.play();
+    // var video = document.getElementById("myVideo");
+    // video.play();
     var audio = document.getElementById("music");
     audio.play();
     

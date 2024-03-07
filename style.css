@@ -94,11 +94,12 @@
   }
 
   .week ul li {
-    width: 42.5px;
+    width: 45px;
     height: 40px;
   }
   .week ul li button {
     font-size: 0.8em;
+    color: #180d0c;
   }
 }
 
