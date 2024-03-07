@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UICalendar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e64f421a3d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <div><h5>UI</h5></div>
+      <div><h5>Calendar</h5></div>
+      <div><h5>2024</h5></div>
+    </section>
+    <section class="month">
+      <div class="first">
+        <h6>January</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>7</button>
+            </li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button id="armdbtn">15</button>
+                <audio id="musical" src="./asset/silent-night-12137.mp3"></audio></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li><button>31</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>FEBUARY</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>MARCH</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>April</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button id="playButton">24</button></li>
+            <video id="myVideo" width="100" height="40" controls>
+                <source src="./asset/WhatsApp Video 2024-03-06 at 22.32.33_024073cc.mp4" type="video/mp4">
+            <audio id="music" src="./asset/happy-birthday-to-you-piano-version-13976.mp3"></audio>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>May</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li><button>31</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>June</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>July</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li><button>31</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>ThUR</h5>
+          <ul>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>August</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li>
+              <button>27</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li>
+              <button>28</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li>
+              <button>29</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li>
+              <button>30</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li><button>31</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>September</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>October</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li>
+              <button>29</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li>
+              <button>30</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li>
+              <button>31</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button>26</button></li>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>November</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button>25</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li>
+              <button>26</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li>
+              <button>27</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Thur</h5>
+          <ul>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li>
+              <button>28</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li>
+              <button>29</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="first">
+        <h6>December</h6>
+        <h5>CONTENT PLANNER</h5>
+      </div>
+      <div class="week">
+        <div>
+          <h5>Sun</h5>
+          <ul>
+            <li><button>1</button></li>
+            <li><button>8</button></li>
+            <li><button>15</button></li>
+            <li><button>22</button></li>
+            <li><button>29</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Mon</h5>
+          <ul>
+            <li><button>2</button></li>
+            <li><button>9</button></li>
+            <li><button>16</button></li>
+            <li><button>23</button></li>
+            <li><button>30</button></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Teu</h5>
+          <ul>
+            <li><button>3</button></li>
+            <li><button>10</button></li>
+            <li><button>17</button></li>
+            <li><button>24</button></li>
+            <li>
+              <button>31</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Wed</h5>
+          <ul>
+            <li><button>4</button></li>
+            <li><button>11</button></li>
+            <li><button>18</button></li>
+            <li><button id="playBtn">25</button>
+                <audio id="musica" src="./asset/Melissa_Lyons_Shauntia_Flemin_-_We_Wish_You_a_Merry_Christmas_(Jesusful.com).mp3"></audio></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>ThUR</h5>
+          <ul>
+            <li><button>5</button></li>
+            <li><button>12</button></li>
+            <li><button>19</button></li>
+            <li><button id="playbt">26</button>
+                <audio id="musics" src="./asset/angel-piano-main-9625.mp3"></audio></li>
+            </li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Fri</h5>
+          <ul>
+            <li><button>6</button></li>
+            <li><button>13</button></li>
+            <li><button>20</button></li>
+            <li><button>27</button></li>
+            <li>
+              <button><i class="fa-solid fa-calendar-days"></i></button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Sat</h5>
+          <ul>
+            <li><button>7</button></li>
+            <li><button>14</button></li>
+            <li><button>21</button></li>
+            <li><button>28</button></li>
+            <li><button><i class="fa-solid fa-calendar-days"></i></button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
