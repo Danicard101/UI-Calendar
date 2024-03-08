@@ -1,4 +1,4 @@
-alert("My Portfolio Calendar")
+alert("UI Appointment Calendar")
 document.getElementById("playButton").addEventListener("click", function() {
     var styledText = '<p style="color: white; background-color: #180d0c; font-size: 8px;">Happy Birthday</p>';
     playButton.innerHTML = styledText;
@@ -22,8 +22,8 @@ document.getElementById("spd").addEventListener("click", function() {
     }, 400000); // 3000 milliseconds = 3 seconds
 });
 document.getElementById("dsb").addEventListener("click", function() {
-    var styledTextt = '<p style="color: white; background-color: #180d0c; font-size: 8px;">Happy Birthday DAD</p>';
-    dsb.innerHTML = styledTextt;
+    var styledTextts = '<p style="color: white; background-color: #180d0c; font-size: 8px;">Happy Birthday DAD</p>';
+    dsb.innerHTML = styledTextts;
     var audio = document.getElementById("musics");
     audio.play();
     
